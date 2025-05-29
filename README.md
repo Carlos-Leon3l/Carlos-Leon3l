@@ -16,7 +16,7 @@
 <img width="300px" height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Carlos-Leon3l&layout=compact&theme=tokyonight"/>
 
 </div>
-<div align="center">
+<div>
           
 **Linguagenes de Programacion**
 
@@ -26,7 +26,7 @@
 ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Python](https://img.shields.io/badge/python-3776A6?style=for-the-badge&logo=python&logoColor=white)
 </div>
-<div align="center"> 
+<div> 
           
 **Librarias e Frameworks**
 
@@ -34,14 +34,14 @@
 ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=Flask&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
 </div>
-<div align="center"> 
+<div> 
           
 **Banco de Datos**
           
 ![MYSQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 ![SQL](https://img.shields.io/badge/-SQL-000?&logo=MySQL&logoColor=4479A1)
 </div>
-<div align="center"> 
+<div> 
 
 **Contáctame**
 
