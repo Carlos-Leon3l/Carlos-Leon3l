@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="690" viewBox="0 0 560 690" role="img" aria-labelledby="title desc">
+<title id="title">Carlos Leonel — foco em Engenharia de Dados, com base em software</title><desc id="desc">Identidade visual de Carlos Leonel. Animações decorativas; os desenhos não representam métricas operacionais.</desc>
+<defs><linearGradient id="accent" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#087f66"/><stop offset="1" stop-color="#7048c6"/></linearGradient><pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#dce5f1" stroke-width=".7"/></pattern></defs>
+<style>.packet{stroke-dasharray:7 16;animation:travel 8s linear infinite}.cursor{animation:blink 1.3s steps(2,end) infinite}.pulse{animation:pulse 4s ease-in-out infinite}@keyframes travel{to{stroke-dashoffset:-184}}@keyframes blink{50%{opacity:0}}@keyframes pulse{50%{opacity:.45}}@media(prefers-reduced-motion:reduce){.packet,.cursor,.pulse{animation:none}}
+    .cl-piece {stroke-dasharray:1;stroke-dashoffset:0}
+    .profile-row,.cl-node {opacity:1}
+    .command-reveal {animation:type-command 18s steps(17,end) infinite}
+    .typing-cursor-shell {opacity:0;animation:show-typing-cursor 18s linear infinite}
+    .typing-cursor {animation:move-typing-cursor 18s steps(17,end) infinite,blink 1s steps(2,end) infinite}
+    @keyframes type-command {
+      0%,13.889% {width:0px}
+      23.889%,95% {width:var(--command-width)}
+      98%,100% {width:0px}
+    }
+    @keyframes move-typing-cursor {
+      0%,13.889% {transform:translateX(0px)}
+      23.889%,95% {transform:translateX(var(--command-width))}
+      98%,100% {transform:translateX(0px)}
+    }
+    @keyframes show-typing-cursor {
+      0%,23.889% {opacity:1}
+      24.444%,100% {opacity:0}
+    }
+
+    .cl-piece {animation:grow-cl 18s linear infinite}
+    @keyframes grow-cl {
+      0%,0.667% {opacity:0;stroke-dashoffset:1}
+      0.722% {opacity:1;stroke-dashoffset:1}
+      11.222%,95% {opacity:1;stroke-dashoffset:0}
+      98% {opacity:0;stroke-dashoffset:0}
+      100% {opacity:0;stroke-dashoffset:1}
+    }
+
+        .profile-row-0 {animation:reveal-row-0 18s ease-out infinite}
+        @keyframes reveal-row-0 {
+          0%,25.556% {opacity:0;transform:translateY(7px)}
+          26.944%,95% {opacity:1;transform:translateY(0px)}
+          98%,100% {opacity:0;transform:translateY(7px)}
+        }
+
+        .profile-row-1 {animation:reveal-row-1 18s ease-out infinite}
+        @keyframes reveal-row-1 {
+          0%,26.778% {opacity:0;transform:translateY(7px)}
+          28.167%,95% {opacity:1;transform:translateY(0px)}
+          98%,100% {opacity:0;transform:translateY(7px)}
+        }
+
+        .profile-row-2 {animation:reveal-row-2 18s ease-out infinite}
+        @keyframes reveal-row-2 {
+          0%,28.000% {opacity:0;transform:translateY(7px)}
+          29.389%,95% {opacity:1;transform:translateY(0px)}
+          98%,100% {opacity:0;transform:translateY(7px)}
+        }
+
+        .profile-row-3 {animation:reveal-row-3 18s ease-out infinite}
+        @keyframes reveal-row-3 {
+          0%,29.222% {opacity:0;transform:translateY(7px)}
+          30.611%,95% {opacity:1;transform:translateY(0px)}
+          98%,100% {opacity:0;transform:translateY(7px)}
+        }
+
+        .profile-row-4 {animation:reveal-row-4 18s ease-out infinite}
+        @keyframes reveal-row-4 {
+          0%,30.444% {opacity:0;transform:translateY(7px)}
+          31.833%,95% {opacity:1;transform:translateY(0px)}
+          98%,100% {opacity:0;transform:translateY(7px)}
+        }
+
+        .profile-row-5 {animation:reveal-row-5 18s ease-out infinite}
+        @keyframes reveal-row-5 {
+          0%,31.667% {opacity:0;transform:translateY(7px)}
+          33.056%,95% {opacity:1;transform:translateY(0px)}
+          98%,100% {opacity:0;transform:translateY(7px)}
+        }
+
+    .cl-node {animation:reveal-cl-nodes 18s ease-out infinite}
+    @keyframes reveal-cl-nodes {
+      0%,11.389% {opacity:0}
+      13.056%,95% {opacity:1}
+      98%,100% {opacity:0}
+    }
+    @media(prefers-reduced-motion:reduce) {.hero-sequence * {animation:none !important}}
+    </style>
+<g class="hero-sequence"><rect x="0.5" y="0.5" width="559" height="689" rx="18" fill="#f6f8fc" stroke="#ccd6e5"/><path d="M1 43H559" stroke="#ccd6e5"/><circle cx="23" cy="22" r="5" fill="#ff6b7a"/><circle cx="42" cy="22" r="5" fill="#f7c66e"/><circle cx="61" cy="22" r="5" fill="#63d8ab"/><text x="88" y="27" fill="#526680" font-family="'DejaVu Sans Mono',Consolas,monospace" font-size="13" font-weight="400" >carlos@github: ~/data-workspace</text><text x="36" y="84" fill="#087f66" font-family="'DejaVu Sans Mono',Consolas,monospace" font-size="13" font-weight="600" letter-spacing="1.5">SOFTWARE  /  DATA  /  AUTOMATION</text><text x="32" y="148" fill="#15233a" font-family="'Segoe UI',Arial,sans-serif" font-size="57" font-weight="750" letter-spacing="-2">Carlos Leonel</text><text x="36" y="184" fill="#526680" font-family="'Segoe UI',Arial,sans-serif" font-size="20" font-weight="400" >Software como base. Dados como direção.</text><defs><linearGradient id="cl-accent" gradientUnits="userSpaceOnUse" x1="90" y1="250" x2="290" y2="380"><stop stop-color="#087f66"/><stop offset="1" stop-color="#7048c6"/></linearGradient></defs><g class="cl-monogram" transform="translate(360 378) scale(.5)" fill="none" stroke="url(#cl-accent)" stroke-width="17" stroke-linecap="square"><path class="cl-piece cl-c" d="M178 258H98V376H178" pathLength="1"/><path class="cl-piece cl-l" d="M209 258V376H286" pathLength="1"/><circle class="cl-node" cx="98" cy="258" r="6" fill="#f6f8fc" stroke="#087f66" stroke-width="2"/><circle class="cl-node" cx="98" cy="376" r="6" fill="#f6f8fc" stroke="#087f66" stroke-width="2"/><circle class="cl-node" cx="209" cy="258" r="6" fill="#f6f8fc" stroke="#087f66" stroke-width="2"/><circle class="cl-node" cx="286" cy="376" r="6" fill="#f6f8fc" stroke="#087f66" stroke-width="2"/></g><defs><clipPath id="command-clip"><rect class="command-reveal" x="57.68" y="206" width="186.24" height="29" style="--command-width:186.24px"/></clipPath></defs><text x="36" y="228" fill="#087f66" font-family="'DejaVu Sans Mono',Consolas,monospace" font-size="18" font-weight="400" >$</text><g clip-path="url(#command-clip)"><text x="57.6756" y="228" fill="#087f66" font-family="'DejaVu Sans Mono',Consolas,monospace" font-size="18" font-weight="400" >python profile.py</text></g><g class="typing-cursor-shell" style="--command-width:186.24px"><rect class="typing-cursor" x="57.6756" y="213" width="9" height="19" rx="1" fill="#087f66" stroke="none"/></g><g class="profile-row profile-row-0"><text x="36" y="276" fill="#7048c6" font-family="'DejaVu Sans Mono',Consolas,monospace" font-size="16" font-weight="600" >foco</text><text x="170" y="276" fill="#15233a" font-family="'Segoe UI',Arial,sans-serif" font-size="15" font-weight="400" >Engenharia de Dados</text></g><g class="profile-row profile-row-1"><text x="36" y="319" fill="#7048c6" font-family="'DejaVu Sans Mono',Consolas,monospace" font-size="16" font-weight="600" >atuação</text><text x="170" y="319" fill="#15233a" font-family="'Segoe UI',Arial,sans-serif" font-size="15" font-weight="400" >Desenvolvimento e Dados</text></g><g class="profile-row profile-row-2"><text x="36" y="362" fill="#7048c6" font-family="'DejaVu Sans Mono',Consolas,monospace" font-size="16" font-weight="600" >core</text><text x="170" y="362" fill="#15233a" font-family="'Segoe UI',Arial,sans-serif" font-size="15" font-weight="400" >Python / SQL / PySpark</text></g><g class="profile-row profile-row-3"><text x="36" y="405" fill="#7048c6" font-family="'DejaVu Sans Mono',Consolas,monospace" font-size="16" font-weight="600" >formação</text><text x="170" y="405" fill="#15233a" font-family="'Segoe UI',Arial,sans-serif" font-size="15" font-weight="400" >Fatec · Software Multiplataforma</text></g><g class="profile-row profile-row-4"><text x="36" y="448" fill="#7048c6" font-family="'DejaVu Sans Mono',Consolas,monospace" font-size="16" font-weight="600" >base</text><text x="170" y="448" fill="#15233a" font-family="'Segoe UI',Arial,sans-serif" font-size="15" font-weight="400" >Backend, APIs e modelagem</text></g><g class="profile-row profile-row-5"><text x="36" y="491" fill="#7048c6" font-family="'DejaVu Sans Mono',Consolas,monospace" font-size="16" font-weight="600" >local</text><text x="170" y="491" fill="#15233a" font-family="'Segoe UI',Arial,sans-serif" font-size="15" font-weight="400" >São Paulo, Brasil</text></g><path d="M36 578H524" stroke="#ccd6e5"/><circle class="pulse" cx="43" cy="600" r="4" fill="#087f66"/><text x="59" y="605" fill="#526680" font-family="'DejaVu Sans Mono',Consolas,monospace" font-size="12" font-weight="400" >APRENDENDO · CONSTRUINDO · EVOLUINDO</text><rect class="cursor" x="505" y="592" width="10" height="17" rx="1" fill="#087f66" stroke="none"/><text x="36" y="654" fill="#087f66" font-family="'DejaVu Sans Mono',Consolas,monospace" font-size="16" font-weight="600" letter-spacing="1">PYTHON  /  SQL  /  PYSPARK</text></g></svg>
